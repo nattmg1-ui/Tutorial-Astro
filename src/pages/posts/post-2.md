@@ -1,12 +1,12 @@
 ---
-title: Mi segunda publicación en el blog
-author: Alumno de Astro
-description: "Después de aprender un poco de Astro, ¡no podía parar!"
+title: 'Mi primer remedio de componentes'
+author: 'Mery'
+description: 'Mezclé mis primeros componentes y funcionaron como buena medicina.'
 image:
-    url: "https://docs.astro.build/assets/arc.webp"
-    alt: "El logotipo de Astro sobre un fondo oscuro con un arco degradado en tonos púrpura."
-pubDate: 2022-07-08
-tags: ["astro", "bloguear", "aprender en público", "éxitos"]
+    url: 'https://docs.astro.build/assets/arc.webp'
+    alt: 'El logotipo de Astro sobre un fondo oscuro con un arco degradado en tonos púrpura.'
+pubDate: 2026-09-08
+tags: ["boticaria", "hierbas medicinales", "palacio interior"]
 layout: ../../layouts/MarkdownPostLayout.astro
 ---
-Después de una exitosa primera semana aprendiendo Astro, decidí probar un poco más. Escribí e importé un pequeño componente de memoria.
+Después de una buena primera semana, quise experimentar más. Como Maomao cuando prueba una nueva hierba, escribí e importé mis primeros componentes: un encabezado, un menú y un pie de página que ahora se reutilizan en todo el sitio.

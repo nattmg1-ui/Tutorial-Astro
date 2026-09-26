@@ -1,7 +1,21 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-const pageTitle = "Página de inicio";
+import Greeting from '../components/Greeting';
+const pageTitle = "Bienvenida al palacio interior";
 ---
 <BaseLayout pageTitle={pageTitle}>
-  <h2>Mi impresionante subtítulo del blog</h2>
+  <section class="portada">
+    <h2>El diario de Mery, boticaria aprendiz de Astro</h2>
+    <p>
+      Cuando cae la noche en el palacio, se encienden los farolillos y abro mi diario.
+      Aquí anoto cada hierba, cada veneno y cada misterio que descubro mientras construyo este sitio.
+    </p>
+    <Greeting client:load messages={[
+      "Bienvenida, visitante del palacio.",
+      "Maomao te saluda desde la botica.",
+      "Los farolillos ya están encendidos.",
+      "Pasa, que el té de hierbas está listo.",
+    ]} />
+    <a class="boton" href="/blog/">Abrir el diario</a>
+  </section>
 </BaseLayout>

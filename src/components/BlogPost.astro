@@ -1,5 +1,8 @@
 ---
-const { title, url } = Astro.props;
+const { title, url, description, date } = Astro.props;
 ---
-
-<li><a href={url}>{title}</a></li>
+<li class="tarjeta">
+  <a href={url}>{title}</a>
+  {date && <p class="fecha">{date}</p>}
+  {description && <p>{description}</p>}
+</li>
